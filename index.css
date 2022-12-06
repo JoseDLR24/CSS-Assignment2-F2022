@@ -1,7 +1,59 @@
-.authorimg {
-    width: 20%;
-}
-
 .carousel {
     width: 30%;
 }
+
+/* adding color to the navbar so it matches the color palette of the book */
+header nav{
+    background-color: rgba(254,82,4,255);
+    box-shadow: 2px 1px 20px black;
+    padding: 0;
+}
+
+/* transition added to change the background and font color smoothly of the search button */
+.searchbtn {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(254,82,4,255);
+    transition: all 0.5s ease-out ;   
+}
+
+.searchbtn:hover {
+    color: rgba(254,82,4,255);
+    background-color: white;
+    
+}
+
+main,section,aside {
+    padding: 20px 15%;
+}
+
+main {
+    background-color: #fe631d;
+    padding: 100px 10%;
+    color: white;
+    text-align: center;
+}
+
+/* CSS for about the author section */
+#author h2{
+    margin-bottom: 20px;
+}
+
+.authorimg {
+    margin-bottom: 20px;
+    width: 300px;
+    max-height: 360px;
+}
+ .abtauthor {
+    display: flex;
+    flex-direction: row;
+ }
+
+ div .authorcontainer{
+    max-width: 60%;
+    margin-left: 40px;
+ }
+
+
+/* NOTE TO ADD THE ACCORDION FROM BOOTSTRAP */

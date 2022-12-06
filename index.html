@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">The 5AM Club</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="searchbtn" type="submit">Search</button>
                 </form>
               </div>
             </div>
@@ -51,24 +51,43 @@
     </header>
     <!-- SYNOPSIS / INFORMATION ABOUT THE 5AM CLUB BOOK. MAIN CONTENT OF THE WEBSITE -->
     <main>
-        
+        <p>In The 5 AM Club: Own Your Morning. Elevate Your Life, he uses a fictitious story about a billionaire mentor teaching a struggling artist and an entrepreneur about the importance of waking up early to show how revolutionary it is for success.</p>
     </main>
     <!-- ABOUT THE AUTHOR INFORMATION -->
     <section>
-        <div class="author">
-            <div id="author">
-                <h2>About the Author</h2>
-                <div>
-                    <img src="/images/AuthorRobinSharma.jpg" alt="Author Robin Sharma" class="authorimg">
-                    <h3>Who is Robin Sharma?</h3>
-                    <p>Robin Sharma is a Canadian writer, best known for his The Monk Who Sold His Ferrari book series. Sharma worked as a litigation lawyer until age 25, when he self-published MegaLiving (1994), a book on stress management and spirituality He initially also self-published The Monk Who Sold His Ferrari, which was then picked up for wider distribution by HarperCollins. Sharma has published 12 other books, and founded the training company Sharma Leadership</p> 
+      <div id="author">
+        <h2>About the Author</h2>
+        <div class="abtauthor">
+            <img src="/images/AuthorRobinSharma.jpg" alt="Author Robin Sharma" class="authorimg"> 
+            <div class="accordion authorcontainer" id="accordionPanelsStayOpenExample authorcontn">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Who is Robin Sharma?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <p>Robin Sharma is a Canadian writer, best known for his The Monk Who Sold His Ferrari book series. Sharma worked as a litigation lawyer until age 25, when he self-published MegaLiving (1994), a book on stress management and spirituality He initially also self-published The Monk Who Sold His Ferrari, which was then picked up for wider distribution by HarperCollins. Sharma has published 12 other books, and founded the training company Sharma Leadership</p>
+                  </div>
                 </div>
-            </div>
-            <div id="moreabtauthor">
-                <h3>Robin Sharma's background</h3>
-                <p>Sharma is of Indian origin. He has a Master's degree in law. Initially, he worked as a lawyer, but he says he couldn't find satisfaction or peace in it. Sharma started his writing career at the age of 25. He became widely known for his second book, The Monk Who Sold His Ferrari. After his second book went successful, he quit his career as a lawyer and became a full-time writer. Later, he also started public speaking and became popular as a speaker as well. He is consulted by many CEOs and other leaders from the corporate world to get advice on how to keep their employees motivated. He has also conducted trainings for many companies, like Nike, Microsoft, IBM, and FedEx. Many organisations such as Yale University, Harvard Business School, and NASA also call him to give public speeches</p>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Robin Sharma's background
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <p>Sharma is of Indian origin. He has a Master's degree in law. Initially, he worked as a lawyer, but he says he couldn't find satisfaction or peace in it. Sharma started his writing career at the age of 25. He became widely known for his second book, The Monk Who Sold His Ferrari. After his second book went successful, he quit his career as a lawyer and became a full-time writer. Later, he also started public speaking and became popular as a speaker as well. He is consulted by many CEOs and other leaders from the corporate world to get advice on how to keep their employees motivated. He has also conducted trainings for many companies, like Nike, Microsoft, IBM, and FedEx. Many organisations such as Yale University, Harvard Business School, and NASA also call him to give public speeches</p>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
+    </div>
+      
     </section>
     <!-- CAROUSEL OF POPULAR BOOKS -->
     <aside>
