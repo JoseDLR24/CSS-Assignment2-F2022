@@ -115,7 +115,21 @@ aside .bookstxt p {
     padding-top: 15px;
 }
 
-.buyform .buybtns button {
+.buyform .buybtns button{
     background-color: white;
+    color: #fe631d;
+}
+
+/* CSS FOR THE REVIEWS DIV */
+.reviews button{
+    margin: 10px 0 20px 102px;
+}
+.abtbookcontent .reviews button {
+    background-color: white;
+    color: #fe631d;
+}
+
+.abtbookcontent .reviews .row .col .collapse .card {
+    padding-top: 10px;
     color: #fe631d;
 }
